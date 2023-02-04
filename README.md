@@ -14,19 +14,20 @@ Video Link:  https://drive.google.com/file/d/1Rqg0YcQBoyV0Xld-V2-XDSCmSYRstZvG/v
   1.	Use a python code to display the following star pattern using the for loop
 
 
-            As per the required output taking rows count as 5
-            rows = 5
-            # Using for loop for iterating the number of rows
-            for i in range (0, rows):
-            # Iterating the columns and printing stars till rows count= 5
-            for j in range (0, i + 1):
-            print ("*", end=' ')
-            print (" ")
-            # After printing 5 rows again starting second iteration and printing stars till 1
-            for i in range (rows, 0, -1):
-            for j in range (0, i - 1):
-            print ("*", end=' ')
-            print (" ")
+    As per the required output taking rows count as 5
+    rows = 5
+    # Using for loop for iterating the number of rows 
+    for i in range (0, rows):  
+        # Iterating the columns and printing stars till rows count= 5
+        for j in range (0, i + 1):  
+            print ("*", end=' ')  
+        print (" ")  
+    # After printing 5 rows again starting second iteration and printing stars till 1
+    for i in range (rows, 0, -1):  
+        for j in range (0, i - 1):  
+            print ("*", end=' ')  
+        print (" ")  
+
  
 
  Output :
@@ -53,11 +54,14 @@ A.
     odds_list= []
     The list index starts with 0
     count = 0
-    using for loop iterating the list and finding the values which are in odd places. Let count be the variable that points to the index of the list and when the index  is divided by 2, if the remainder is 1 then the index is odd
+    using for loop iterating the list and finding the values which are in odd places. 
+    Let count be the variable that points to the index of the list and when the index 
+    is divided by 2, if the remainder is 1 then the index is odd
+
     for i in my_list:
-    if count % 2 == 1:
-    odds_list.append(i)
-    count += 1
+        if count % 2 == 1:
+            odds_list.append(i)
+        count += 1
     after values are appended to the empty list, printing the list
     print(odds_list)
 
@@ -73,15 +77,15 @@ Expected output
 [<class 'int'>, <class 'str'>, <class 'float'>]
 A.
 
-        Declaring given list is below
+        #Declaring given list is below
         x = [23, 'Python',23.98]
-        Created another empty list to print the list of datatypes
+        #Created another empty list to print the list of datatypes
         dt = []
-        Using for loop to iterate the list and getting values to find datatypes by using type() method.
-        After finding the datatypes, appending into the empty list dt using append() method
+        #Using for loop to iterate the list and getting values to find datatypes by using type() method.
+        #After finding the datatypes, appending into the empty list dt using append() method
         for i in range(len(x)):
-        dt.append(type(x[i]))
-        Now, printing both the lists.
+            dt.append(type(x[i]))
+        #Now, printing both the lists.
         print(x)
         print(dt)
 
@@ -101,13 +105,15 @@ A.
     def unique_list(l):
     inside function, we are writing program to get unique items.
     First created an empty list x
-    x = []
-    Using for loop iterating list of l where we are passing input at the last. The loop will check if there is any item in the other list and append only unique values in new list using append() method
-    for a in l:
-    if a not in x:
-    x.append(a)
+      x = []
+    Using for loop iterating list of l where we are passing input at the last.
+    The loop will check if there is any item in the other list and append only unique values
+    in new list using append() method
+      for a in l:
+        if a not in x:
+            x.append(a)
     after appending and if the loop ends , it will return the list x and printing the list.
-    return x
+      return x
     print(unique_list([1,2,3,3,3,3,4,5]))
 
 
@@ -121,19 +127,21 @@ Input String: 'The quick Brow Fox'
 
     A.
     
-        Declaring given string as str
+       Declaring given string as str
         str = "The quick Brow Fox"
-        declaring count of upper- case and lower-case letters as 0
+        #declaring count of upper- case and lower-case letters as 0
         upper=0
         lower=0
-        using for loop iterating the str, the loop checks if the letter in the string is lower case or upper case using islower() and isupper() methods. Increasing count values respectively if the letter is lower or upper.
+        using for loop iterating the str, the loop checks if the letter in the string 
+        is lower case or upper case using islower() and isupper() methods. 
+        Increasing count values respectively if the letter is lower or upper.
         for i in str:
-        if (i.islower()):
-        lower=lower+1
-        elif (i.isupper()):
-        upper=upper+1
+           if (i.islower()):
+               lower=lower+1
+           elif (i.isupper()):
+               upper=upper+1
         Printing the count of lower and upper case letters as below
-        print("No of Upper-case characters:",upper)
+        print("No of Upper-case characters:",upper)        
         print("No of lower case letters:",lower)
 
  
