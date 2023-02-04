@@ -1,10 +1,10 @@
-**Assignment-2**
+                                                            **Assignment-2**
     
 Name: Meghana Chodagiri
 Student Id: 700749050
 
 
-GitHub Link: 
+GitHub Link: https://github.com/meghanach1/Assignment-2
 
 Video Link:
 
@@ -117,20 +117,21 @@ letters.
 Input String: 'The quick Brow Fox'
 
     A.
-    Declaring given string as str
-    str = "The quick Brow Fox"
-    declaring count of upper- case and lower-case letters as 0
-    upper=0
-    lower=0
-    using for loop iterating the str, the loop checks if the letter in the string is lower case or upper case using islower() and isupper() methods. Increasing count values respectively if the letter is lower or upper.
-    for i in str:
-    if (i.islower()):
-    lower=lower+1
-    elif (i.isupper()):
-    upper=upper+1
-    Printing the count of lower and upper case letters as below
-    print("No of Upper-case characters:",upper)
-    print("No of lower case letters:",lower)
+    
+        Declaring given string as str
+        str = "The quick Brow Fox"
+        declaring count of upper- case and lower-case letters as 0
+        upper=0
+        lower=0
+        using for loop iterating the str, the loop checks if the letter in the string is lower case or upper case using islower() and isupper() methods. Increasing count values respectively if the letter is lower or upper.
+        for i in str:
+        if (i.islower()):
+        lower=lower+1
+        elif (i.isupper()):
+        upper=upper+1
+        Printing the count of lower and upper case letters as below
+        print("No of Upper-case characters:",upper)
+        print("No of lower case letters:",lower)
 
  
 Output:
