@@ -1,4 +1,4 @@
-                                                            **Assignment-2**
+                                                            Assignment-2
     
 
 Name: Meghana Chodagiri
@@ -9,6 +9,8 @@ Student Id: 700749050
 GitHub Link: https://github.com/meghanach1/Assignment-2
 
 Video Link:  https://drive.google.com/file/d/1Rqg0YcQBoyV0Xld-V2-XDSCmSYRstZvG/view?usp=sharing
+
+Short description: Programs on loops
 
 
   1.	Use a python code to display the following star pattern using the for loop
